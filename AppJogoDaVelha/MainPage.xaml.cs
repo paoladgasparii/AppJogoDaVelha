@@ -9,7 +9,7 @@ namespace AppJogoDaVelha
             InitializeComponent();
         }
 
-        private void btn10_Clicked(System.Object sender, System.EventArgs e)
+        private void Button_Clicked(System.Object sender, System.EventArgs e)
         {
             Button disparador = (Button)sender;
 
@@ -23,7 +23,7 @@ namespace AppJogoDaVelha
             else
             {
                 disparador.Text = "X";
-                vez == "O";
+                vez = "O";
             }
 
         }
