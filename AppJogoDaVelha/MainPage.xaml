@@ -5,8 +5,8 @@
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3"/>
-            <GradientStop Color="BlueViolet" Offset="1.1"/>
+            <GradientStop Color="#8258FA" Offset="0.3"/>
+            <GradientStop Color="#9F81F7" Offset="1.1"/>
         </LinearGradientBrush>
     </ContentPage.Background>
 
@@ -26,7 +26,8 @@
         
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                FontSize="60" HorizontalTextAlignment="Center"
-               Text="JOGO DA VELHA" />
+               Text="JOGO DA VELHA" 
+               TextColor="White"/>
 
         <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text="" Clicked="Button_Clicked" />
         <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Text="" Clicked="Button_Clicked"/>
